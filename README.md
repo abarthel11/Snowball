@@ -2,7 +2,7 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 # Getting Started
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+> **Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
 ## Step 1: Start the Metro Server
 
@@ -13,9 +13,6 @@ To start Metro, run the following command from the _root_ of your React Native p
 ```bash
 # using npm
 npm start
-
-# OR using Yarn
-yarn start
 ```
 
 ## Step 2: Start your Application
@@ -27,9 +24,6 @@ Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _roo
 ```bash
 # using npm
 npm run android
-
-# OR using Yarn
-yarn android
 ```
 
 ### For iOS
@@ -37,9 +31,6 @@ yarn android
 ```bash
 # using npm
 npm run ios
-
-# OR using Yarn
-yarn ios
 ```
 
 If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
@@ -54,6 +45,24 @@ Now that you have successfully run the app, let's modify it.
 2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
 
    For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+
+## Run instructions for Android:
+
+    • Have an Android emulator running (quickest way to get started), or a device connected.
+    • cd "/Users/austin/Documents/GitHub/Snowball" && npx react-native run-android
+
+## Run instructions for iOS:
+
+    • cd "/Users/austin/Documents/GitHub/Snowball"
+
+    • npx react-native run-ios
+    - or -
+    • Open Snowball/ios/Snowball.xcworkspace in Xcode or run "xed -b ios"
+    • Hit the Run button
+
+## Run instructions for macOS:
+
+    • See https://aka.ms/ReactNativeGuideMacOS for the latest up-to-date instructions.
 
 ## Congratulations! :tada:
 
